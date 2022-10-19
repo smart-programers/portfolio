@@ -1,8 +1,11 @@
-  .insta {
-            height: 20px;
-            width: 20px;
-        }
-        
-        .h {
-            color: rgb(64, 65, 66);
-        }
+body{
+  background-color: rgba(128, 128, 128, 0.178);
+} 
+.insta {
+  height: 20px;
+  width: 20px;
+  }
+
+.h {
+   color: rgb(64, 65, 66);
+ }
