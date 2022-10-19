@@ -9,3 +9,8 @@ body{
 .h {
    color: rgb(64, 65, 66);
  }
+
+.m-column h5{
+  width:90%;
+  margin-top:10em auto; 
+}
