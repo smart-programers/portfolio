@@ -1,0 +1,242 @@
+/*--------------------------------------------------------CSS START--------------------------------*/
+
+/*--------------------------------------------------------HEADER--------------------------------*/
+header {
+  height: 100vh;
+  background-color: #06dbdb;
+  overflow: hidden;
+}
+
+#navigation-bar {
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    overflow: scroll;
+  }
+  #navigation-bar {
+    background-color: #ffffff0a !important;
+    padding: 8px 10px !important;
+  }
+
+  #logo {
+    height: 25px !important;
+    width: 40px !important;
+  }
+
+  .header-contents h1 {
+    color: white;
+    font-size: 2em !important;
+    line-height: 2em;
+    margin: 0em auto;
+    box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .header-contents p {
+    line-height: 1.8em;
+    border-radius: 0.5em;
+    width: 98% !important;
+    padding: 1em 5px;
+    color: #ffffff;
+    margin: 3em auto !important;
+  }
+}
+
+#logo {
+  height: 50px;
+  width: 80px;
+}
+
+#collapsibleNavbar {
+  justify-content: flex-end;
+}
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #00ffff;
+}
+
+.navbar-toggler {
+  border-radius: 20% !important;
+  padding: 2px 5px;
+}
+
+.header-contents h1 {
+  color: #ffffff15;
+  font-size: 6em;
+  -webkit-text-stroke: 1px white;
+}
+
+.header-contents p {
+  line-height: 1.8em;
+  border-radius: 0.2em;
+  width: 70%;
+  padding: 2em 5px;
+  color: #001619;
+  margin: 5em auto;
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1) !important;
+}
+
+.h-ln {
+  width: 50%;
+  height: 6px;
+  margin: auto;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1) !important;
+}
+
+/*--------------------------------------------------------MAIN--------------------------------*/
+/*--------------------------------------------------------Mission--------------------------------*/
+
+#missions {
+  background-image: linear-gradient(to bottom right, #00ffff, #ffffff);
+}
+@media only screen and (max-width: 576px) {
+  .mission-h1 {
+    padding: 10px 0 !important;
+    font-size: 1.3em;
+    z-index: 1;
+    margin: 0 auto;
+    color: #001619;
+  }
+  .mission-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-p {
+    line-height: 2em;
+    margin: 0 auto !important;
+    font-size: 0.8em !important;
+    color: #001619;
+  }
+}
+
+.mission-picture {
+  width: 100% !important;
+  height: 90% !important;
+  margin: 0.5em auto;
+  border-radius: 2em;
+  box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.1) !important;
+}
+
+.mission-p {
+  font-size: 1.5em;
+  margin: 5em auto;
+  color: #001619;
+}
+
+.mission-h1 {
+  color: #001619;
+}
+
+/*--------------------------------------------------------About--------------------------------*/
+#about {
+  height: 100vh;
+  padding: 3em 0;
+}
+
+.about-head {
+  margin: 2em auto;
+}
+
+.about-text {
+  margin: 6em auto !important;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 576px) {
+  #about {
+    background-repeat: no-repeat;
+    height: 80vh !important;
+    padding: 3em 0;
+  }
+
+  .about-text {
+    font-size: 1em;
+    margin: 2em auto !important;
+  }
+}
+
+/*--------------------------------------------------------About--------------------------------*/
+.contacts {
+  margin: 3em auto 1em 5em;
+}
+#contact img {
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 8px;
+  margin: 0 1em;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+.categories {
+  border-left: 2px solid #ffffff;
+  padding-right: 100px;
+}
+footer ul {
+  list-style: none;
+}
+footer {
+  background-color: #001619;
+  color: white;
+}
+
+footer h5,
+footer h4 {
+  font-size: 1em;
+}
+footer a {
+  color: #00ffff;
+}
+
+@media only screen and (max-width: 576px) {
+  footer h5,
+  footer h4 {
+    font-size: 0.7em !important;
+  }
+
+  footer {
+    background-color: #001619;
+    color: white;
+    padding: 1em 0.1em !important;
+  }
+
+  footer a {
+    font-size: 0.7em;
+  }
+.contacts {
+  margin: 1em auto 1em 0em;
+}
+  #contact img {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 10px;
+  }
+
+  .footer-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+  }
+  .categories {
+    border-left: 1px solid #ffffff;
+    padding-right: 10px;
+  }
+}
